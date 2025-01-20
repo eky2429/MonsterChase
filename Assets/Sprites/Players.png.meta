@@ -171,7 +171,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Players_0
+      name: Player 1-1
       rect:
         serializedVersion: 2
         x: 10
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_1
+      name: Player 1-2
       rect:
         serializedVersion: 2
         x: 126
@@ -213,10 +213,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_2
+      name: Player 1-3
       rect:
         serializedVersion: 2
-        x: 254
+        x: 255
         y: 249
         width: 145
         height: 220
@@ -234,10 +234,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_3
+      name: Player 1-4
       rect:
         serializedVersion: 2
-        x: 419
+        x: 420
         y: 250
         width: 116
         height: 221
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_4
+      name: Player 1-5
       rect:
         serializedVersion: 2
         x: 546
@@ -276,7 +276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_5
+      name: Player 1-6
       rect:
         serializedVersion: 2
         x: 668
@@ -297,7 +297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_6
+      name: Player 1-7
       rect:
         serializedVersion: 2
         x: 805
@@ -318,7 +318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Players_7
+      name: Player 1-8
       rect:
         serializedVersion: 2
         x: 961
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_0
+      name: Player 2-1
       rect:
         serializedVersion: 2
         x: 23
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_1
+      name: Player 2-2
       rect:
         serializedVersion: 2
         x: 123
@@ -381,11 +381,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_2
+      name: Player 2-3
       rect:
         serializedVersion: 2
         x: 251
-        y: 20
+        y: 19
         width: 145
         height: 190
       alignment: 0
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_3
+      name: Player 2-4
       rect:
         serializedVersion: 2
         x: 416
@@ -423,7 +423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_4
+      name: Player 2-5
       rect:
         serializedVersion: 2
         x: 558
@@ -444,7 +444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_5
+      name: Player 2-6
       rect:
         serializedVersion: 2
         x: 657
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_6
+      name: Player 2-7
       rect:
         serializedVersion: 2
         x: 803
@@ -486,7 +486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SecondPlayer_7
+      name: Player 2-8
       rect:
         serializedVersion: 2
         x: 962
@@ -517,22 +517,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Players_0: 1757168063971477599
-      Players_1: 7255854300219104043
-      Players_2: -6127215198058392024
-      Players_3: 5770437819054901188
-      Players_4: -4906125199742805290
-      Players_5: 6490518340326617606
-      Players_6: 4873397878994576889
-      Players_7: 4552264578813294707
-      SecondPlayer_0: -8732285999409787101
-      SecondPlayer_1: 7116009729732391868
-      SecondPlayer_2: -3762027003936843820
-      SecondPlayer_3: -3733097830291599174
-      SecondPlayer_4: 4037833166851039263
-      SecondPlayer_5: 68067404465400748
-      SecondPlayer_6: 5489095558992561210
-      SecondPlayer_7: 8716251932417823705
+      Player 1-1: 1757168063971477599
+      Player 1-2: 7255854300219104043
+      Player 1-3: -6127215198058392024
+      Player 1-4: 5770437819054901188
+      Player 1-5: -4906125199742805290
+      Player 1-6: 6490518340326617606
+      Player 1-7: 4873397878994576889
+      Player 1-8: 4552264578813294707
+      Player 2-1: -8732285999409787101
+      Player 2-2: 7116009729732391868
+      Player 2-3: -3762027003936843820
+      Player 2-4: -3733097830291599174
+      Player 2-5: 4037833166851039263
+      Player 2-6: 68067404465400748
+      Player 2-7: 5489095558992561210
+      Player 2-8: 8716251932417823705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
