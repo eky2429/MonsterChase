@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "MonsterChase.sln"
+    "dotnet.defaultSolution": "MonsterChase.sln",
+    "FSharp.suggestGitignore": false
 }

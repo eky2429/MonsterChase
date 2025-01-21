@@ -17,6 +17,9 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
     private string WALK_ANIMATION = "isMoving";
+    private string GROUND_TAG = "Ground";
+
+    private bool isGrounded;
 
 
     //Called as soon as object is created
@@ -41,6 +44,11 @@ public class Player : MonoBehaviour
         AnimatePlayer();
     }
 
+    //Called every "fixed" frame rate
+    private void FixedUpdate() {
+        PlayerJump();
+    }
+
     void PlayerMoveKeyboard() {
         movementX = Input.GetAxisRaw("Horizontal");
 
@@ -56,6 +64,22 @@ public class Player : MonoBehaviour
             sr.flipX = true;
         } else {
             anim.SetBool(WALK_ANIMATION, false);
+        }
+    }
+
+    void PlayerJump() {
+
+        if (Input.GetButtonDown("Jump") && isGrounded) {
+            isGrounded = false;
+            //Adds an instant force of jumpForce (going up)
+            myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+        }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag(GROUND_TAG)) {
+            isGrounded = true;
         }
     }
 }
